@@ -1,0 +1,16 @@
+[/]
+audible-bell=false
+background-color='rgb(46,52,63)'
+bold-is-bright=false
+cell-width-scale=1.2000000000000002
+cursor-blink-mode='on'
+cursor-shape='ibeam'
+foreground-color='rgb(208,207,204)'
+highlight-background-color='rgb(59,66,81)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(255,255,255)'
+palette=['rgb(198,205,215)', 'rgb(143,188,187)', 'rgb(62,120,134)', 'rgb(119,156,159)', 'rgb(113,172,183)', 'rgb(0,227,154)', 'rgb(105,157,169)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(127,161,191)', 'rgb(76,86,106)', 'rgb(113,172,183)', 'rgb(131,192,207)', 'rgb(67,165,133)', 'rgb(131,192,207)', 'rgb(255,255,255)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
+visible-name='Nord'
