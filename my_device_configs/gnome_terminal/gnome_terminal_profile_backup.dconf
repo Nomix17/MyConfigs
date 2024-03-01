@@ -1,0 +1,14 @@
+[/]
+audible-bell=false
+background-color='rgb(30,30,30)'
+cell-height-scale=1.0
+cell-width-scale=1.2
+cursor-blink-mode='on'
+cursor-shape='ibeam'
+foreground-color='rgb(208,207,204)'
+highlight-background-color='rgb(3,34,49)'
+highlight-colors-set=true
+palette=['rgb(23,20,33)', 'rgb(33,170,153)', 'rgb(42,122,135)', 'rgb(113,172,183)', 'rgb(113,172,183)', 'rgb(163,71,186)', 'rgb(64,170,166)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(42,205,205)', 'rgb(4,37,85)', 'rgb(12,233,125)', 'rgb(42,123,222)', 'rgb(192,97,203)', 'rgb(52,150,165)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-colors=false
+visible-name='Pain'
