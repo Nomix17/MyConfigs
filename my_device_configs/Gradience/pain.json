@@ -1,5 +1,5 @@
 {
-    "name": "Pain",
+    "name": "pain",
     "variables": {
         "accent_color": "#FFFFFF",
         "accent_bg_color": "#2a7a87",
@@ -20,7 +20,7 @@
         "window_fg_color": "#e2e2e5",
         "view_bg_color": "#1e1e1e",
         "view_fg_color": "#e2e2e5",
-        "headerbar_bg_color": "#1e1e1e",
+        "headerbar_bg_color": "#0f0e0e",
         "headerbar_fg_color": "#ffffff",
         "headerbar_border_color": "rgba(226, 226, 229, 0.8)",
         "headerbar_backdrop_color": "@window_bg_color",
