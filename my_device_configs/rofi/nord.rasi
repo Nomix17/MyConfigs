@@ -2,7 +2,7 @@
     font:   "JetBrains Mono 12";
 
     /* Adjusted Nord Color Palette for Darker Shades */
-    nord0:     #2c303c;
+    nord0:     #151a20;
     nord1:     #373e4d;
     nord2:     #3e4757;
     nord3:     #454f61;
