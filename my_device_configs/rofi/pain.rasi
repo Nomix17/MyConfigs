@@ -1,29 +1,29 @@
 * {
-    font:   "JetBrains Mono 12";
+    font:   "IBM Plex Mono 12";
 
     /* Adjusted Nord Color Palette for Darker Shades */
-    nord0:     #2c303c;
-    nord1:     #373e4d;
-    nord2:     #3e4757;
-    nord3:     #454f61;
+    nord0:     #101010; /* Darkened */
+    nord1:     #373e4d; /* Darkened */
+    nord2:     #3e4757; /* Darkened */
+    nord3:     #454f61; /* Darkened */
 
-    nord4:     #c8d0da;
-    nord5:     #d2d8e0;
-    nord6:     #dce1e8;
+    nord4:     #c8d0da; /* Darkened */
+    nord5:     #d2d8e0; /* Darkened */
+    nord6:     #dce1e8; /* Darkened */
 
-    nord7:     #7f9bab;
-    nord8:     #779cad;
-    nord9:     #6a8da5;
-    nord10:    #4e7088;
-    nord11:    #a55661;
+    nord7:     #7f9bab; /* Darkened */
+    nord8:     #1e1e1e; /* Darkened */
+    nord9:     #6a8da5; /* Darkened */
+    nord10:    #4e7088; /* Darkened */
+    nord11:    #a55661; /* Darkened */
 
-    nord12:    #bf8160;
-    nord13:    #c9a978;
-    nord14:    #93ae8c;
-    nord15:    #a4789d;
+    nord12:    #bf8160; /* Darkened */
+    nord13:    #c9a978; /* Darkened */
+    nord14:    #93ae8c; /* Darkened */
+    nord15:    #a4789d; /* Darkened */
 
     background-color:   transparent;
-    text-color:         @nord4;
+    text-color:         #434342;
     accent-color:       @nord8;
 
     margin:     0px;
@@ -33,36 +33,32 @@
 
 window {
     background-color:   @nord0;
-    border-color:       @accent-color;
-    anchor: center;
-    location: center;
-    width: 480px;
-    border: 1px;
-    y-offset: 0px;
-    x-offset: 0px;
-    border-radius: 10px;
+    border-color:       #2a7a87;
+
+    location:   center;
+    width:      480px;
+    border:     1px;
 }
 
 inputbar {
     padding:    8px 12px;
     spacing:    12px;
-    children:   [prompt, entry];
-    /* Ensure input bar integrates well with window styling */
+    children:   [ prompt, entry ];
 }
 
-entry {
-    border-radius: 5px; /* Curved edges for the text entry */
+prompt, entry, element-text, element-icon {
+    vertical-align: 0.5;
 }
 
 prompt {
-    text-color: @accent-color;
+    text-color: #2a7a87;
 }
 
 listview {
     lines:      8;
     columns:    1;
-    fixed-height: false;
-    border-radius: 0px; /* Flat edges for the list itself */
+
+    fixed-height:   false;
 }
 
 element {
@@ -79,21 +75,23 @@ element normal active {
 }
 
 element selected {
-    text-color: @nord0;
-    background-color: @accent-color;
-    /* Maintain a consistent design with selected elements */
+    text-color: #101010;
+}
+
+element selected normal {
+    background-color:   #2a7a87;
 }
 
 element selected urgent {
-    background-color: @nord13;
+    background-color:   @nord13;
 }
 
 element selected active {
-    background-color: @nord8;
+    background-color:   @nord8;
 }
 
 element-icon {
-    size: 0.75em;
+    size:   0.75em;
 }
 
 element-text {
