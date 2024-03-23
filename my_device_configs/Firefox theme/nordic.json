@@ -1,0 +1,14 @@
+{
+    "toolbar": "rgb(46, 52, 63)", // #2e343f
+    "toolbar_text": "rgb(130, 130, 143)", // #82828f
+    "frame": "rgb(23, 26, 35)", // #171a23
+    "tab_background_text": "rgb(140, 140, 140)", // #8c8c8c
+    "toolbar_field": "rgb(23, 26, 35)", // #171a23
+    "toolbar_field_text": "rgb(183, 187, 187)", // #b7bbbb
+    "tab_line": "rgb(62, 120, 133)", // #3e7885
+    "popup": "rgb(30, 40, 52)", // #1e2834
+    "popup_text": "rgb(140, 140, 140)", // #8c8c8c
+    "icons": "rgb(117, 148, 175)", // #7594af
+    "ntp_background": "rgb(46, 52, 63)", // #2e343f
+    "tab_loading": "rgb(30, 30, 30)" // #1e1e1e
+  }
