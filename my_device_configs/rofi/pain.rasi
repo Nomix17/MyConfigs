@@ -1,6 +1,5 @@
 * {
-    font:   "IBM Plex Mono 12";
-
+    font:   "JetBrains Mono 12";
     /* Adjusted Nord Color Palette for Darker Shades */
     nord0:     #101010; /* Darkened */
     nord1:     #373e4d; /* Darkened */
@@ -34,10 +33,13 @@
 window {
     background-color:   @nord0;
     border-color:       #2a7a87;
-
-    location:   center;
-    width:      480px;
-    border:     1px;
+    anchor: center;
+    location: center;
+    width: 500px;
+    border: 1px;
+    y-offset: 0px;
+    x-offset: 0px;
+    border-radius: 10px;
 }
 
 inputbar {
