@@ -6,6 +6,8 @@ vim.opt.clipboard = "unnamedplus"
 vim.cmd [[packadd packer.nvim]]
 vim.cmd 'colorscheme nord'
 
+-- vim.o.termguicolors = true
+
 require('packer').startup(function()
     use 'wbthomason/packer.nvim'
     use 'arcticicestudio/nord-vim'
@@ -20,17 +22,18 @@ require('packer').startup(function()
 	use 'terryma/vim-multiple-cursors'
     use 'neoclide/coc.nvim'
     use 'ryanoasis/vim-devicons'
+	use 'mg979/vim-visual-multi'
 end)
 
+
+vim.g.python3_host_prog = '/usr/bin/python3'
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
-
 map('v', '<C-S-X>', '"+x', opts)
 map('v', '<C-S-C>', '"+y', opts)
 map('n', '<C-f>', ':NERDTreeFocus<CR>', opts)
 map('n', '<C-t>', ':NERDTreeToggle<CR>', opts)
 map('n', '<C-a>', 'ggVG', opts)
-vim.g.python3_host_prog = '/usr/bin/python3'
 map('x', '(', '<ESC>`>a)<ESC>`<i(<ESC>', opts)
 map('x', ')', '<ESC>`>a)<ESC>`<i(<ESC>', opts)
 map('x', '[', '<ESC>`>a]<ESC>`<i[<ESC>', opts)
@@ -50,5 +53,10 @@ vim.api.nvim_create_autocmd("VimEnter", {
     pattern = "*",
     callback = setup_mappings
 })
-
+vim.api.nvim_set_keymap('n', '<C-A-n>', ':belowright split | resize 10 | terminal<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<C-A-Up>', '<C-w>k', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('t', '<C-A-Up>', '<C-\\><C-n><C-w>k', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-A-Down>', '<C-w>j', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('t', '<C-A-Down>', '<C-\\><C-n><C-w>j', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('i', '<CR>', 'coc#pum#visible() ? coc#pum#confirm() : "<CR>"', {expr = true, noremap = true})
 
