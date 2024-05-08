@@ -11,18 +11,18 @@ vim.cmd 'colorscheme nord'
 require('packer').startup(function()
     use 'wbthomason/packer.nvim'
     use 'arcticicestudio/nord-vim'
-	use 'catppuccin/nvim'
-	use 'tpope/vim-surround'
+    use 'catppuccin/nvim'
+    use 'tpope/vim-surround'
     use 'tpope/vim-commentary'
     use 'ap/vim-css-color'
     use 'preservim/nerdtree'
     use 'rafi/awesome-vim-colorschemes'
     use 'vim-airline/vim-airline'
     use 'vim-airline/vim-airline-themes'
-	use 'terryma/vim-multiple-cursors'
+    use 'terryma/vim-multiple-cursors'
     use 'neoclide/coc.nvim'
     use 'ryanoasis/vim-devicons'
-	use 'mg979/vim-visual-multi'
+    use 'mg979/vim-visual-multi'
 end)
 
 
@@ -59,4 +59,3 @@ vim.api.nvim_set_keymap('t', '<C-A-Up>', '<C-\\><C-n><C-w>k', {noremap = true, s
 vim.api.nvim_set_keymap('n', '<C-A-Down>', '<C-w>j', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('t', '<C-A-Down>', '<C-\\><C-n><C-w>j', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('i', '<CR>', 'coc#pum#visible() ? coc#pum#confirm() : "<CR>"', {expr = true, noremap = true})
-
