@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Pain",
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/bg-000-5672c42860d5b06e1058dc477397f3ef.svg"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "rgb(30, 30, 30)",
+      "toolbar_text": "rgb(143, 143, 143)",
+      "frame": "rgb(16, 16, 16)",
+      "tab_background_text": "rgb(143, 143, 143)",
+      "toolbar_field": "rgb(9, 9, 9)",
+      "toolbar_field_text": "rgb(143, 143, 143)",
+      "tab_line": "rgb(50, 148, 146)",
+      "popup": "rgb(27, 40, 45)",
+      "popup_text": "rgb(140, 140, 140)",
+      "icons": "rgb(31, 101, 99)",
+      "ntp_background": "rgb(30, 30, 30)",
+      "tab_loading": "rgb(30, 30, 30)"
+    }
+  }
+}
