@@ -1,0 +1,62 @@
+{
+    "workbench.colorTheme": "Stealth Contrast (rainglow)",
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10,
+    "code-runner.runInTerminal": true,
+    "workbench.statusBar.visible": true,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "punctuation.definition",
+                "settings": {
+                    "foreground": "#989797" // Change to your desired color for (
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.",
+                "settings": {
+                    "foreground": "#989797" // Change to your desired color for (
+                }
+            },
+            {
+            "scope": "punctuation.definition.list",
+            "settings": {
+                "foreground": "#285f6a" // Change to your desired color for [
+            }
+        },
+        {
+            "scope": "punctuation.definition.angle",
+            "settings": {
+                "foreground": "#285f6a" // Change to your desired color for [
+            }
+        },
+        {
+            "scope": "punctuation.separator",
+            "settings": {
+                "foreground": "#285f6a" // Change to your desired color for {
+            }
+        },
+        {
+            "scope": "punctuation.terminator",
+            "settings": {
+                "foreground": "#285f6a" // Change to your desired color for {
+            }
+        },
+        {
+            "scope": "punctuation.accessor",
+            "settings": {
+                "foreground": "#285f6a" // Change to your desired color for {
+            }
+        },
+        {
+            "scope": "punctuation.definition.comment",
+            "settings": {
+                "foreground": "#323538" // Green color for //
+            }
+        }
+    ]
+}
+
+}
