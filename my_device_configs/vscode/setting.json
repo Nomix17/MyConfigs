@@ -4,9 +4,63 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 10,
     "editor.fontSize": 17,
+    // "glassit.alpha": 225,
     "code-runner.runInTerminal": true,
     "terminal.integrated.inheritEnv": false,
-    // "glassit.alpha": 225,
+    "workbench.statusBar.visible": true,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "punctuation.definition",
+                "settings": {
+                    "foreground": "#989797"
+                }
+            },
+            {
+                "scope": "punctuation.definition.string.",
+                "settings": {
+                    "foreground": "#989797"
+                }
+            },
+            {
+            "scope": "punctuation.definition.list",
+            "settings": {
+                "foreground": "#285f6a"
+            }
+        },
+        {
+            "scope": "punctuation.definition.angle",
+            "settings": {
+                "foreground": "#285f6a"
+            }
+        },
+        {
+            "scope": "punctuation.separator",
+            "settings": {
+                "foreground": "#285f6a"
+            }
+        },
+        {
+            "scope": "punctuation.terminator",
+            "settings": {
+                "foreground": "#285f6a"
+            }
+        },
+        {
+            "scope": "punctuation.accessor",
+            "settings": {
+                "foreground": "#285f6a"
+            }
+        },
+        {
+            "scope": "punctuation.definition.comment",
+            "settings": {
+                "foreground": "#323538"
+            }
+        }
+    ]
+},
     "workbench.colorCustomizations": {
         "statusBarItem.remoteBackground": "#040507",
         "statusBar.background" : "#040507",
