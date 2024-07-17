@@ -1,62 +1,38 @@
 {
     "workbench.colorTheme": "Stealth Contrast (rainglow)",
-    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "editor.fontFamily": "'JetBrains Mono','Droid Sans Mono', 'monospace', monospace",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 10,
+    "editor.fontSize": 17,
     "code-runner.runInTerminal": true,
-    "workbench.statusBar.visible": true,
-    "editor.bracketPairColorization.enabled": false,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "punctuation.definition",
-                "settings": {
-                    "foreground": "#989797" // Change to your desired color for (
-                }
-            },
-            {
-                "scope": "punctuation.definition.string.",
-                "settings": {
-                    "foreground": "#989797" // Change to your desired color for (
-                }
-            },
-            {
-            "scope": "punctuation.definition.list",
-            "settings": {
-                "foreground": "#285f6a" // Change to your desired color for [
-            }
-        },
-        {
-            "scope": "punctuation.definition.angle",
-            "settings": {
-                "foreground": "#285f6a" // Change to your desired color for [
-            }
-        },
-        {
-            "scope": "punctuation.separator",
-            "settings": {
-                "foreground": "#285f6a" // Change to your desired color for {
-            }
-        },
-        {
-            "scope": "punctuation.terminator",
-            "settings": {
-                "foreground": "#285f6a" // Change to your desired color for {
-            }
-        },
-        {
-            "scope": "punctuation.accessor",
-            "settings": {
-                "foreground": "#285f6a" // Change to your desired color for {
-            }
-        },
-        {
-            "scope": "punctuation.definition.comment",
-            "settings": {
-                "foreground": "#323538" // Green color for //
-            }
-        }
-    ]
-}
-
+    "terminal.integrated.inheritEnv": false,
+    // "glassit.alpha": 225,
+    "workbench.colorCustomizations": {
+        "statusBarItem.remoteBackground": "#040507",
+        "statusBar.background" : "#040507",
+        "list.warningForeground": "#31424b",
+        "gitDecoration.addedResourceForeground": "#548faa",
+        "gitDecoration.modifiedResourceForeground": "#3a6181",
+        "gitDecoration.deletedResourceForeground": "#1a5875",
+        "gitDecoration.renamedResourceForeground": "#566c91",
+        "gitDecoration.stageModifiedResourceForeground": "#64B5F6",
+        "gitDecoration.stageDeletedResourceForeground": "#2d597a",
+        "gitDecoration.untrackedResourceForeground": "#507485",
+        "gitDecoration.ignoredResourceForeground": "#B0BEC5",
+        "gitDecoration.conflictingResourceForeground": "#205380",
+        "gitDecoration.submoduleResourceForeground": "#57839b",
+        "editorGutter.modifiedBackground": "#315374",
+        "editorGutter.addedBackground": "#34718d",
+        "editorGutter.deletedBackground": "#293d5c",
+        "minimapGutter.modifiedBackground": "#3a5b75",
+        "minimapGutter.addedBackground": "#0e3a5e",
+        "minimapGutter.deletedBackground": "#333e63",
+        "merge.currentHeaderBackground": "#64B5F6AA",
+        "merge.currentContentBackground": "#64B5F640",
+        "merge.incomingHeaderBackground": "#2c6783aa",
+        "merge.incomingContentBackground": "#03A9F440",
+        "merge.commonContentBackground": "#2196F340",
+        "merge.border": "#275872"
+    },
+    
 }
