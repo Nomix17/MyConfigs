@@ -62,6 +62,8 @@
     ]
 },
     "workbench.colorCustomizations": {
+        "editorWarning.foreground": "#4bffe1",
+        "editorError.foreground": "#0066ff",
         "statusBarItem.remoteBackground": "#040507",
         "statusBar.background" : "#040507",
         "list.warningForeground": "#31424b",
