@@ -1,57 +1,40 @@
 * {
-    font:   "JetBrains Mono 12";
+    font: "JetBrains Mono 12";
 
-    /* Adjusted Nord Color Palette for Darker Shades */
-    nord0:     #151a20;
-    nord1:     #373e4d;
-    nord2:     #3e4757;
-    nord3:     #454f61;
+    /* Nord Color Palette */
+    nord0:  #151a20;
+    nord1:  #373e4d;
+    nord4:  #c8d0da;
+    nord8:  #779cad;
+    nord13: #c9a978;
 
-    nord4:     #c8d0da;
-    nord5:     #d2d8e0;
-    nord6:     #dce1e8;
+    background-color: transparent;
+    text-color: @nord4;
+    accent-color: @nord8;
 
-    nord7:     #7f9bab;
-    nord8:     #779cad;
-    nord9:     #6a8da5;
-    nord10:    #4e7088;
-    nord11:    #a55661;
-
-    nord12:    #bf8160;
-    nord13:    #c9a978;
-    nord14:    #93ae8c;
-    nord15:    #a4789d;
-
-    background-color:   transparent;
-    text-color:         @nord4;
-    accent-color:       @nord8;
-
-    margin:     0px;
-    padding:    0px;
-    spacing:    0px;
+    margin: 0px;
+    padding: 0px;
+    spacing: 0px;
 }
 
 window {
-    background-color:   @nord0;
-    border-color:       @accent-color;
+    background-color: @nord0;
+    border-color: @accent-color;
     anchor: center;
     location: center;
     width: 480px;
     border: 1px;
-    y-offset: 0px;
-    x-offset: 0px;
     border-radius: 10px;
 }
 
 inputbar {
-    padding:    8px 12px;
-    spacing:    12px;
-    children:   [prompt, entry];
-    /* Ensure input bar integrates well with window styling */
+    padding: 8px 12px;
+    spacing: 12px;
+    children: [prompt, entry];
 }
 
 entry {
-    border-radius: 5px; /* Curved edges for the text entry */
+    border-radius: 5px;
 }
 
 prompt {
@@ -59,15 +42,14 @@ prompt {
 }
 
 listview {
-    lines:      8;
-    columns:    1;
+    lines: 8;
+    columns: 1;
     fixed-height: false;
-    border-radius: 0px; /* Flat edges for the list itself */
 }
 
 element {
-    padding:    8px;
-    spacing:    8px;
+    padding: 8px;
+    spacing: 8px;
 }
 
 element normal urgent {
@@ -81,15 +63,10 @@ element normal active {
 element selected {
     text-color: @nord0;
     background-color: @accent-color;
-    /* Maintain a consistent design with selected elements */
 }
 
 element selected urgent {
     background-color: @nord13;
-}
-
-element selected active {
-    background-color: @nord8;
 }
 
 element-icon {
@@ -99,3 +76,4 @@ element-icon {
 element-text {
     text-color: inherit;
 }
+
