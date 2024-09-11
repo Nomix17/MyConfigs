@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "name": "Pain",
+  "manifest_version": 2,
+  "theme": {
+    "colors": {
+      "frame": [16, 16, 16],                  // Frame color
+      "frame_inactive": [16, 16, 16],                   // Frame color
+      "toolbar": [30, 30, 30],                // Toolbar color
+      "tab_background_text": [143, 143, 143], // Tab background text color
+      "bookmark_text": [143, 143, 143],       // Toolbar icons and text color
+      "ntp_background": [30, 30, 30],         // NTP background color
+      "ntp_text": [143, 143, 143],            // NTP text color
+      "popup": [16, 16, 16],                  // Popup background color
+      "popup_text": [140, 140, 140],          // Popup text color
+      "toolbar_button": [31, 101, 99],        // Icons color
+      "toolbar_field": [9, 9, 9],             // Toolbar field (search bar) color
+      "toolbar_field_text": [143, 143, 143],  // Toolbar field text color
+      "tab_text": [143, 143, 143],                // Tab loading color (mapped to tab text)
+      "button_background": [31, 101, 99],
+	  "omnibox_background": [9, 9, 9],        // Omnibox (search bar) background color
+      "omnibox_text": [143, 143, 143],         // Omnibox text color	
+      "omnibox_border":  [31, 101, 99],
+	  "button_background": [50, 148, 146],
+      "tab_selected": [0, 0, 255]      // Selected tab color (border color)
+	} 
+}
+}
