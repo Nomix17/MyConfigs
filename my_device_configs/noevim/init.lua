@@ -2,16 +2,20 @@ vim.opt.number = true
 vim.opt.tabstop = 4
 vim.opt.autoindent = true
 vim.opt.clipboard = "unnamedplus"
+vim.g.terminal = 'alacritty'
 
 vim.cmd [[packadd packer.nvim]]
-vim.cmd 'colorscheme nord'
+vim.cmd ('colorscheme nord ')
 
--- vim.o.termguicolors = true
+vim.o.termguicolors = true
 
 require('packer').startup(function()
+    use 'morhetz/gruvbox'
     use 'wbthomason/packer.nvim'
     use 'arcticicestudio/nord-vim'
-    use 'catppuccin/nvim'
+    use 'wbthomason/packer.nvim'
+    use 'olivercederborg/poimandres.nvim'
+	use 'catppuccin/nvim'
     use 'tpope/vim-surround'
     use 'tpope/vim-commentary'
     use 'ap/vim-css-color'
@@ -59,3 +63,8 @@ vim.api.nvim_set_keymap('t', '<C-A-Up>', '<C-\\><C-n><C-w>k', {noremap = true, s
 vim.api.nvim_set_keymap('n', '<C-A-Down>', '<C-w>j', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('t', '<C-A-Down>', '<C-\\><C-n><C-w>j', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('i', '<CR>', 'coc#pum#visible() ? coc#pum#confirm() : "<CR>"', {expr = true, noremap = true})
+
+
+vim.g['airline#extensions#tabline#enabled'] = 0  -- Enable tabline for buffers/tabs
+vim.g['airline_powerline_fonts'] = 1  -- Enable powerline fonts (make sure you have a font installed that supports this)
+vim.g['airline_theme'] = 'gruvbox'  -- Set the theme (choose one matching your color scheme)
