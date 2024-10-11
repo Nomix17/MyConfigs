@@ -1,0 +1,79 @@
+# General settings
+window:
+  padding:
+    x: 2
+    y: 2 
+  dimensions:
+    columns: 80
+    lines: 20
+
+# Font settings
+font:
+  normal:
+    family: "JetBrains Mono"
+    style: "Bold Italic"
+  size: 10.5
+
+# Cursor settings
+cursor:
+  style: Beam
+  blink: true
+
+# Profiles
+# Gruvbox Theme
+colors:
+  primary:
+    background: '0x282828'   # rgb(40, 40, 40)
+    foreground: '0xebdbb2'   # rgb(235, 219, 178)
+  cursor:
+    text: '0x282828'
+    cursor: '0xebdbb2'
+  selection:
+    background: '0x3c3836'   # rgb(60, 56, 54)
+  normal:
+    black:   '0x1d2021'      # rgb(29, 32, 33)
+    red:     '0xfb4934'      # rgb(251, 73, 52)
+    green:   '0xb8bb26'      # rgb(184, 187, 38)
+    yellow:  '0xfabd2f'      # rgb(250, 189, 47)
+    blue:    '0x83a598'      # rgb(131, 169, 152)
+    magenta: '0xd3869b'      # rgb(211, 134, 155)
+    cyan:    '0x8ec07c'      # rgb(142, 192, 124)
+    white:   '0xe3c78c'      # rgb(227, 199, 140)
+  bright:
+    black:   '0x7c6f64'      # rgb(124, 111, 100)
+    red:     '0xfb4934'      # rgb(251, 73, 52)
+    green:   '0xb8bb26'      # rgb(184, 187, 38)
+    yellow:  '0xfabd2f'      # rgb(250, 189, 47)
+    blue:    '0x83a598'      # rgb(131, 169, 152)
+    magenta: '0xd3869b'      # rgb(211, 134, 155)
+    cyan:    '0x8ec07c'      # rgb(142, 192, 124)
+    white:   '0xffffff'      # rgb(255, 255, 255)
+
+# Haker theme
+profiles:
+  - name: "Haker theme"
+    background: '0x000000'
+    foreground: '0x00ff00'
+    colors:
+      primary:
+        background: '0x000000'
+        foreground: '0x00ff00'
+      normal:
+        black:   '0x171421'
+        red:     '0xc01c28'
+        green:   '0x00ff00'
+        yellow:  '0xa2734c'
+        blue:    '0x0bc60b'
+        magenta: '0xa347ba'
+        cyan:    '0x00ff00'
+        white:   '0xd0cfcc'
+      bright:
+        black:   '0x5e5c64'
+        red:     '0xf66151'
+        green:   '0x00ff00'
+        yellow:  '0xe9ad0c'
+        blue:    '0x2a7bde'
+        magenta: '0xc061cb'
+        cyan:    '0x23813c'
+        white:   '0xffffff'
+
