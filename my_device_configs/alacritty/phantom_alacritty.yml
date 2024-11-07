@@ -1,0 +1,80 @@
+# General settings
+window:
+  padding:
+    x: 2
+    y: 2 
+  background_opacity: 1.0
+  dimensions:
+    columns: 80
+    lines: 20
+
+# Font settings
+font:
+  normal:
+    family: "JetBrains Mono"
+    style: "Bold Italic"
+  size: 10.5
+
+# Cursor settings
+cursor:
+  style: Beam
+  blink: true
+
+# Profiles
+# Grey Scale Profile
+colors:
+  primary:
+    background: '0x101010'   # rgb(46, 46, 46)
+    foreground: '0xd0d0d0'   # rgb(208, 208, 208)
+  cursor:
+    text: '0x000000'
+    cursor: '0xd0d0d0'
+  selection:
+    background: '0x424242'   # rgb(66, 66, 66)
+  normal:
+    black:   '0x1c1c1c'   # rgb(28, 28, 28)
+    red:     '0x3c3c3c'   # rgb(60, 60, 60)
+    green:   '0x585858'   # rgb(88, 88, 88)
+    yellow:  '0x747474'   # rgb(116, 116, 116)
+    blue:    '0x909090'   # rgb(144, 144, 144)
+    magenta: '0xb0b0b0'   # rgb(176, 176, 176)
+    cyan:    '0xd0d0d0'   # rgb(208, 208, 208)
+    white:   '0xe0e0e0'   # rgb(224, 224, 224)
+  bright:
+    black:   '0x484848'   # rgb(72, 72, 72)
+    red:     '0x626262'   # rgb(98, 98, 98)
+    green:   '0x7e7e7e'   # rgb(126, 126, 126)
+    yellow:  '0x999999'   # rgb(153, 153, 153)
+    blue:    '0xb3b3b3'   # rgb(179, 179, 179)
+    magenta: '0xd5d5d5'   # rgb(213, 213, 213)
+    cyan:    '0xe0e0e0'   # rgb(224, 224, 224)
+    white:   '0xffffff'   # rgb(255, 255, 255)
+
+# Haker theme (Grey Scale Version)
+profiles:
+  - name: "Grey Haker theme"
+    background: '0x1e1e1e'   # rgb(30, 30, 30)
+    foreground: '0xc0c0c0'   # rgb(192, 192, 192)
+    colors:
+      primary:
+        background: '0x1e1e1e'
+        foreground: '0xc0c0c0'
+      normal:
+        black:   '0x171717'   # rgb(23, 23, 23)
+        red:     '0x3e3e3e'   # rgb(62, 62, 62)
+        green:   '0x4a4a4a'   # rgb(74, 74, 74)
+        yellow:  '0x666666'   # rgb(102, 102, 102)
+        blue:    '0x7f7f7f'   # rgb(127, 127, 127)
+        magenta: '0x999999'   # rgb(153, 153, 153)
+        cyan:    '0xcccccc'   # rgb(204, 204, 204)
+        white:   '0xffffff'   # rgb(255, 255, 255)
+      bright:
+        black:   '0x595959'   # rgb(89, 89, 89)
+        red:     '0x808080'   # rgb(128, 128, 128)
+        green:   '0x9d9d9d'   # rgb(157, 157, 157)
+        yellow:  '0xb8b8b8'   # rgb(184, 184, 184)
+        blue:    '0xd1d1d1'   # rgb(209, 209, 209)
+        magenta: '0xe6e6e6'   # rgb(230, 230, 230)
+        cyan:    '0xf1f1f1'   # rgb(241, 241, 241)
+        white:   '0xffffff'   # rgb(255, 255, 255)
+
