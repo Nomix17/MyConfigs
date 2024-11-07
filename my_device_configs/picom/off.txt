@@ -1,0 +1,13 @@
+# Enable fading for transparency
+fading = true;
+
+# Make windows transparent
+inactive-opacity = 0.80;  # Adjust this for inactive windows transparency
+active-opacity = 0.85;    # Adjust this for active windows transparency
+frame-opacity = 0.80;     # Frame transparency
+vsync = true;
+backend = "glx";
+opacity-rule = [
+    "85:class_g = 'Code'"
+];
+
