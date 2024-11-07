@@ -1,0 +1,78 @@
+* {
+    font: "JetBrains Mono 12";
+    nord0:  #101010;
+    nord1:  #373e4d;
+    nord4:  #c8d0da;
+    nord8:  #1e1e1e;
+    nord13: #c9a978;
+
+    background-color: transparent;
+    text-color:  #888888;
+    accent-color: #ffffff;
+
+    margin: 0px;
+    padding: 0px;
+    spacing: 0px;
+}
+
+window {
+    background-color: #0f0e0e;
+    border-color: #888888;
+    anchor: center;
+    location: center;
+    width: 500px;
+    border: 3px;
+    border-radius: 10px;
+}
+
+inputbar {
+    padding: 8px 12px;
+    spacing: 12px;
+    children: [prompt, entry];
+}
+
+prompt, entry, element-text, element-icon {
+    vertical-align: 0.5;
+}
+
+prompt {
+    text-color: #888888;
+}
+
+listview {
+    lines: 8;
+    columns: 1;
+    fixed-height: false;
+}
+
+element {
+    padding: 8px;
+    spacing: 8px;
+}
+
+element normal urgent {
+    text-color: @nord13;
+}
+
+element normal active {
+    text-color: #ffffff;
+}
+
+element selected {
+    text-color: #101010;
+}
+
+element selected normal,
+element selected urgent,
+element selected active {
+    background-color: #888888;
+}
+
+element-icon {
+    size: 0.75em;
+}
+
+element-text {
+    text-color: inherit;
+}
+
