@@ -1,0 +1,49 @@
+.triangle-down,
+.second-section+.container,
+.col-md-4.col-sm-12,
+.site-copyrights,
+#disqus_thread,
+#inputEpisode,
+.main-widget-body h3,
+.menu-item-21993,
+.anime-page-link,
+.main-didget-head,
+.search-in-episodes-list,
+.panel-heading{
+    display:none!important;
+}
+.panel-body,
+.content.episode-download-container,
+.second-section,
+.main-section,
+#mCSB_1,
+#inputEpisode,
+.space,
+.content,
+.header-navbar,
+.row{
+    background-color:#0f121b;
+}
+.episode-watch-links  .row,.user-post-info-content .row ,.container.header-navbar-container .row{
+    background-color:#131722;
+}
+.container.episode-watch-container .row:first-of-type {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+li{
+    margin-left:20px;
+}
+.second-section{
+    background-image:none;
+}
+.server-link{
+    color:white;
+    background-color:#1e1e1e;
+    margin-top:10px;
+    border-radius:100px;
+}
+#iframe-container{
+    background-image:none;
+}
