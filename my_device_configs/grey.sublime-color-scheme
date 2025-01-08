@@ -1,0 +1,145 @@
+{
+  "globals": {
+    "background": "#0d0e0f",
+    "foreground": "#5e636a",
+    "caret": "#ffffff",
+    "invisibles": "#292c2f",
+    "line_highlight": "#121415",
+    "selection": "#151718",
+    "selection_border": "#292c2f"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "#292b2d"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "#5e636a"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "foreground": "#292c2f"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "foreground": "#0d0e0f"
+    },
+    {
+      "name": "Function Name",
+      "scope": "entity.name.function",
+      "foreground": "#474c51"
+    },
+    {
+      "name": "Variable Name",
+      "scope": "variable",
+      "foreground": "#6e757e"
+    },
+    {
+      "name": "Class Name",
+      "scope": "entity.name.class, storage.type.class",
+      "foreground": "#3c4044"  // Target both 'class' and its name occurrences
+    },
+    {
+      "name": "Enum Name",
+      "scope": "storage.type.enum, entity.name.enum",
+      "foreground": "#3c4044"  // Target both 'enum' and its name occurrences
+    },
+    {
+      "name": "Support",
+      "scope": "support",
+      "foreground": "#5e636a"
+    },
+    {
+      "name": "Punctuation Definition",
+      "scope": "punctuation.definition",
+      "foreground": "#989797"
+    },
+    {
+      "name": "Punctuation Definition String",
+      "scope": "punctuation.definition.string",
+      "foreground": "#989797"
+    },
+    {
+      "name": "Punctuation Definition List",
+      "scope": "punctuation.definition.list",
+      "foreground": "#285f6a"
+    },
+    {
+      "name": "Punctuation Definition Angle",
+      "scope": "punctuation.definition.angle",
+      "foreground": "#285f6a"
+    },
+    {
+      "name": "Punctuation Separator",
+      "scope": "punctuation.separator",
+      "foreground": "#285f6a"
+    },
+    {
+      "name": "Punctuation Terminator",
+      "scope": "punctuation.terminator",
+      "foreground": "#285f6a"
+    },
+    {
+      "name": "Punctuation Accessor",
+      "scope": "punctuation.accessor",
+      "foreground": "#285f6a"
+    },
+    {
+      "name": "Punctuation Definition Comment",
+      "scope": "punctuation.definition.comment",
+      "foreground": "#323538"
+    },
+    {
+      "name": "Braces, Parentheses, and Quotes",
+      "scope": "punctuation.section.block.begin, punctuation.section.block.end, punctuation.section.parens.begin, punctuation.section.parens.end, punctuation.section.brackets.begin, punctuation.section.brackets.end, punctuation.definition.string.begin, punctuation.definition.string.end",
+      "foreground": "#989797"
+    },
+    {
+      "name": "Include and New Keywords",
+      "scope": "keyword.control.import, keyword.other.include, keyword.control.new",
+      "foreground": "#3c4044"  // Change color of include and new keywords
+    },
+    {
+      "name": "Control Flow Keywords",
+      "scope": "keyword.control.for, keyword.control.if, keyword.control.else, keyword.control.while, keyword.control.new",
+      "foreground": "#303337"
+    },
+    {
+      "name": "Control Flow Keyword - Explicit",
+      "scope": "keyword.control",
+      "foreground": "#303337"
+    },
+    {
+      "name": "Assignment Operator",
+      "scope": "punctuation.assignment, operator.assignment, keyword.operator.assignment",
+      "foreground": "#303337"
+    },
+    {
+      "name": "General Operators",
+      "scope": "keyword.operator, punctuation.operator, keyword.operator.comparison, keyword.operator.arithmetic",
+      "foreground": "#303337"
+    }
+  ],
+  "theme": {
+    "focused_window": {
+      "background": "#0d0e0f"
+    },
+    "unfocused_window": {
+      "background": "#0d0e0f"
+    },
+    "gutter": {
+      "background": "#08090a"
+    },
+    "tabs": {
+      "background": "#141617",
+      "foreground": "#5e636a",
+      "active_background": "#292c2f",
+      "active_foreground": "#ffffff"
+    }
+  }
+}
