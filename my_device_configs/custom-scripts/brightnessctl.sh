@@ -10,9 +10,9 @@ TEXT_COLOR='#C5C8C6'  # Color for the text
 
 # Set the icon based on brightness level
 if [ $BRIGHTNESS_NR -lt 20 ]; then
-    BRIGHTNESS_ICON=""  # Low brightness icon
+    BRIGHTNESS_ICON=" "  # Low brightness icon
 else
-    BRIGHTNESS_ICON=""  # Normal brightness icon
+    BRIGHTNESS_ICON=" "  # Normal brightness icon
 fi
 
 # Output the icon and brightness value with colors

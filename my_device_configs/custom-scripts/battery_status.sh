@@ -16,7 +16,7 @@ if [[ $state == 'Charging' ]]; then
     elif [ $num_percent -ge 20 ]; then
         echo "%{F#1F6563}󱐋  %{F#C5C8C6}$percent%{F-}"  # Icon in #1F6563, percentage in #C5C8C6
     else
-        echo "%{F#1F6563}󱐋  %{F#C5C8C6}$percent%{F-}"  # I#1F6563con in , percentage in #C5C8C6
+        echo "%{F#651f1f}󱐋  %{F#C5C8C6}$percent%{F-}"  # I#1F6563con in , percentage in #C5C8C6
     fi
 elif [[ $state == 'Full' ]]; then
     echo "%{F#1F6563}  %{F#C5C8C6}$percent%{F-}"  # Icon in #1F6563, percentage in #C5C8C6
@@ -31,7 +31,7 @@ elif [[ $state == 'Discharging' ]]; then
     elif [ $num_percent -ge 20 ]; then
         echo "%{F#1F6563}  %{F#C5C8C6}$percent%{F-}"  # Icon in #1F6563, percentage in #C5C8C6
     else
-        echo "%{F#1F6563}  %{F#C5C8C6}$percent%{F-}"  # Icon in #1F6563, percentage in #C5C8C6
+        echo "%{F#651f1f}  %{F#C5C8C6}$percent%{F-}"  # Icon in #1F6563, percentage in #C5C8C6
     fi
 else
     echo "Battery state unknown"  # In case of unexpected state
