@@ -1,0 +1,6 @@
+@-moz-document url("about:home"), url("about:newtab"), url("about:addons"), url("about:preferences"), url("https://addons.mozilla.org/en-US/firefox/extensions/") {
+    body,#full{
+        background-color: #101010 !important;
+    }
+}
+
