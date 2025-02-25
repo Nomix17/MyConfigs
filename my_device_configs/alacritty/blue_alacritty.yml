@@ -24,7 +24,7 @@ cursor:
 # Blue Profile
 colors:
   primary:
-    background: '0x1e1e1e'   # rgb(30, 30, 30)
+    background: '0x101010'   # rgb(30, 30, 30)
     foreground: '0xd0cfcc'   # rgb(208, 207, 204)
   cursor:
     text: '0x000000'
