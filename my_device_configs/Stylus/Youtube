@@ -1,0 +1,20 @@
+ytd-app,
+ytd-mini-guide-renderer[class="style-scope ytd-app"],
+div[id="background"][class="style-scope tp-yt-app-header"],
+tp-yt-app-header[id="header"],
+div[id="header"][class="style-scope ytd-app"],
+div[id="footer"][class="style-scope ytd-guide-renderer"],
+a[id="endpoint"],
+div[id="chips-content"][class="style-scope ytd-feed-filter-chip-bar-renderer"],
+/*div[id="page-header-banner"][class="style-scope ytd-tabbed-page-header"],*/
+
+div[id="columns"][class="style-scope ytd-watch-flexy"],
+div[id="container"][class="style-scope ytd-masthead"],
+ytd-search[class="style-scope ytd-page-manager"],
+ytd-browse[class="style-scope ytd-page-manager"],
+ytd-guide-section-renderer[class="style-scope ytd-guide-renderer"]{
+    background-color:#14161b;
+}
+div[class="ytp-player-content ytp-timely-actions-content"]{
+    background-color:#000000;
+}
