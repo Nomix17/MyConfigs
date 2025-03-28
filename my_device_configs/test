@@ -1,0 +1,12 @@
+from PIL import Image
+import numpy as np
+
+
+image = Image.open("/home/pain/FDM/image.png") 
+
+imagearr = np.array(image)
+
+for i in range(0,len(imagearr),21):
+  for j in range(0,len(imagearr[i]),21):
+    newimage = Image.fromarray(imagearr[i:i+21][j:j+21])
+    newimage.show()
