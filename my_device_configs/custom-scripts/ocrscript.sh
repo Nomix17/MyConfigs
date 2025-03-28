@@ -1,6 +1,8 @@
 path="$HOME/Pictures/Screenshots/ocr.png"
 scrot -s $path
 text=$(tesseract $path -)
-echo $text
-echo $text | xsel --clipboard --input
+if[ $text ];then
+  echo $text
+  echo $text | xsel --clipboard --input
+fi
 rm $path
